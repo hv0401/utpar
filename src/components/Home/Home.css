@@ -1,0 +1,181 @@
+/* h1 {
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(25,83,158,1) 78%, rgba(2,0,36,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+} */
+h5 {
+    /* Create a linear gradient with multiple colors */
+    background: linear-gradient(90deg, rgb(49, 0, 244) 0%, rgba(25,83,158,1) 78%, rgb(126, 121, 215) 100%);
+    /* Use the background-clip property to clip text to the gradient background */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Set the text color to transparent so that the gradient shows through */
+    color: transparent;
+}
+.container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+.container-top h2 {
+    color: black;
+    margin-top: 60px;
+}
+.container-top Button {
+    background-color: rgb(25, 6, 67);
+    width: 180px;
+}
+.container-top Button h4 {
+    font-size: medium;
+    margin-top: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-top Button:hover {
+    background-color: rgb(37, 50, 148);
+}
+.helpContainer Button {
+    background-color: rgb(25, 6, 67);
+    width: 160px;
+    height: 40px;
+}
+.helpContainer Button h4 {
+    font-size: medium;
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.helpContainer Button:hover {
+    background-color: rgb(37, 50, 148);
+}
+.clildGetStart Button {
+    background-color: rgb(25, 6, 67);
+    width: 160px;
+    height: 40px;
+}
+.clildGetStart Button h4 {
+    font-size: medium;
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clildGetStart Button:hover {
+    background-color: rgb(37, 50, 148);
+}
+.welcome-text{
+    background: linear-gradient(90deg, rgb(0, 21, 97) 0%, rgba(25,83,158,1) 78%, rgba(2,0,36,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 6.2em;
+    width: 100vw;
+    margin: 0 auto; 
+    margin-top: 600px;
+    margin-left: 100px;
+}
+.trustedContainer {
+    background-color: rgb(247, 247, 247);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trustedContainer h3 {
+    color: black; /* Change text color to black for h3 elements within .trustedContainer */
+    margin: 20px;
+}
+.helpContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 500px;
+}
+.helpContainer h3{
+    background: linear-gradient(90deg, rgb(49, 0, 244) 0%, rgba(25,83,158,1) 78%, rgb(126, 121, 215) 100%);
+    /* Use the background-clip property to clip text to the gradient background */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Set the text color to transparent so that the gradient shows through */
+    color: transparent;
+}
+.getStartedContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 251, 251);
+    width: 100vw;
+    height: 600px;
+}
+.clildGetStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 160px;
+}
+button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+button:hover {
+    color: blue; /* Change color on hover to blue */
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+Button {
+    animation: slideInFromLeft 0.5s ease; /* Apply animation to Button element */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 260px;
+    height: 60px;
+    font-size: x-large;
+}
+
+.ticker-container {
+    width: 80vw;
+    margin-top: 60px;
+    background-color: white;
+    height: 60px;
+    border-radius: 15px;
+    align-items: center;
+    align-content: center;
+}
+
+.ticker {
+    display: inline-block;
+    white-space: nowrap;
+    width: 80vw;
+    animation: tickerAnim 90s linear infinite; 
+}
+.ticker h4 {
+    color: black;
+}
+
+
+@keyframes tickerAnim {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

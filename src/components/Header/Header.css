@@ -1,0 +1,53 @@
+.Photo {
+    border: 1;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.navbar-nav li {
+    margin-right: 10px;
+    /* Adjust the value as needed */
+}
+
+ul.navbar-nav li h4 {
+    color: #4279A0;
+    font-size: 1.1rem;
+    /* Change to your desired color */
+}
+
+.header-container {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+.dropdown-header {
+    margin-top: 2px ;
+    margin-left: -18px;
+}
+.hd {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+}
+.logoname-slogan {
+    display: flex;
+    flex-direction: column;
+}
+.logoname-slogan p {
+    color: black;
+    margin-left: 12px;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+}

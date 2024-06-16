@@ -1,0 +1,89 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.footer-content Button {
+    background-color: rgb(25, 6, 67);
+    width: 160px;
+    height: 40px;
+}
+
+.footer-content Button h4 {
+    font-size: medium;
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-content Button:hover {
+    background-color: rgb(37, 50, 148);
+}
+
+.social-media-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border: white;
+}
+
+.logo img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-media-buttons a:hover {
+    transform: translateY(-5px);
+}
+
+.social-media-buttons a img {
+    width: 50px;
+    /* Adjust logo size as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.social-media-buttons a h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.text-muted {
+    color: #999;
+}
+
+.copyright {
+    margin-left: 200px;
+}
+.socialmedia-logo {
+    margin-left: 180px;
+}
+.socialmedia-logo a{
+    margin-right: 10px;
+}

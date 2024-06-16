@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.container-1 {
+    align-items: center;
+    align-content: center;
+    margin-top: 150px;
+}
+.container-1 p {
+    font-size: medium;
+    color: black;
+}
+.text-section {
+    align-items: center;
+    align-content: center;
+}
+.text-section h4 {
+    font-size: large;
+    margin-top: 80px;
+    background: linear-gradient(90deg, rgb(0, 126, 244) 0%, rgba(25,83,158,1) 78%, rgb(196, 195, 201) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.text-section h3 {
+    /* font-size: x-large;
+    color: black; */
+    font-size: medium;
+    margin-top: 80px;
+    color: black;
+}
+.text-section h2 {
+    font-size: medium;
+    color: black;
+    margin-top: 80px;
+}
