@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/utpar/static/css/main.401d8874.css",
+    "main.js": "/utpar/static/js/main.a97a2e6f.js",
+    "static/js/453.ad0666c2.chunk.js": "/utpar/static/js/453.ad0666c2.chunk.js",
+    "static/media/utparlogo.svg": "/utpar/static/media/utparlogo.8dffdc8a506c2a0f1cc8e092ce41e47c.svg",
+    "index.html": "/utpar/index.html",
+    "static/media/linkedin.svg": "/utpar/static/media/linkedin.a88e8523d338423488e33739210f77b8.svg",
+    "static/media/twitter.svg": "/utpar/static/media/twitter.567cba5ad5bb10bcbd70232d154f2ddc.svg",
+    "static/media/chevron-down.svg": "/utpar/static/media/chevron-down.c3e123cf78bc368a192f3e2dee97daba.svg",
+    "main.401d8874.css.map": "/utpar/static/css/main.401d8874.css.map",
+    "main.a97a2e6f.js.map": "/utpar/static/js/main.a97a2e6f.js.map",
+    "453.ad0666c2.chunk.js.map": "/utpar/static/js/453.ad0666c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.401d8874.css",
+    "static/js/main.a97a2e6f.js"
+  ]
+}
